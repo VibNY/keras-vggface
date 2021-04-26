@@ -125,4 +125,4 @@ def index(preds, top=5):
 
     for pred in preds:
         top_indices = pred.argsort()[-top:][::-1]
-        return top_indices[0]
+    return top_indices[0]
